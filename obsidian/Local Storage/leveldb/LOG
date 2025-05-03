@@ -1,2 +1,3 @@
-2025/03/26-12:02:28.062 1cf1 Creating DB /home/palash/.config/obsidian/Local Storage/leveldb since it was missing.
-2025/03/26-12:02:28.073 1cf1 Reusing MANIFEST /home/palash/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2025/05/02-20:10:13.150 ad65 Reusing MANIFEST /home/palash/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2025/05/02-20:10:13.154 ad65 Recovering log #3
+2025/05/02-20:10:13.154 ad65 Reusing old log /home/palash/.config/obsidian/Local Storage/leveldb/000003.log 

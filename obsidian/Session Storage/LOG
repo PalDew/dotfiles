@@ -1,2 +1,3 @@
-2025/03/26-12:02:39.814 1cf1 Creating DB /home/palash/.config/obsidian/Session Storage since it was missing.
-2025/03/26-12:02:39.818 1cf1 Reusing MANIFEST /home/palash/.config/obsidian/Session Storage/MANIFEST-000001
+2025/05/02-20:10:13.662 ad65 Reusing MANIFEST /home/palash/.config/obsidian/Session Storage/MANIFEST-000001
+2025/05/02-20:10:13.662 ad65 Recovering log #3
+2025/05/02-20:10:13.662 ad65 Reusing old log /home/palash/.config/obsidian/Session Storage/000003.log 

@@ -1,1 +1,1 @@
-("~/Documents/Experiment1/" "~/Documents/Obsidian-new/" "~/Documents/dotfiles/" "~/Documents/scratch/")
+("~/Documents/scratch/" "~/" "~/.config/emacs/" "~/Documents/Obsidian-new/" "~/Documents/Experiment1/")

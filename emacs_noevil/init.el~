@@ -1,0 +1,32 @@
+;; disable that annoying sound
+(setq visible-bell t)
+
+;; set the garbage collector (think cache) value to 50mb.
+(setq gc-cons-threshold (* 50 1000 1000))
+
+;; disable the menu bar
+(setq menu-bar-mode nil)
+
+;;disable scroll bar
+(setq scroll-bar-mode nil)
+
+;;disable the startup screen
+(setq inhibit-startup-screen t)
+
+;;turn on global visual line mode (line wrapping)
+(setq global-visual-line-mode t)
+
+;;auto-pairing of parantheses
+(setq electric-pair-mode t)
+
+;;highlight a text and relace the text by typing
+(setq delete-selection-mode t)
+
+;;setting up package urls
+(require 'use-package-ensure) ;; Load use-package-always-ensure
+(setq use-package-always-ensure t) ;; Always ensures that a package is installed
+(setq package-archives '(("melpa" . "https://melpa.org/packages/") ;; Sets default package repositories
+                         ("org" . "https://orgmode.org/elpa/")
+                         ("elpa" . "https://elpa.gnu.org/packages/")
+                         ("nongnu" . "https://elpa.nongnu.org/nongnu/"))) ;; For Eat Terminal
+

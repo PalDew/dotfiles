@@ -835,7 +835,7 @@
 		      ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com"))
 		     (:commit . "1b30a28857727202d1f6a027f83ad66151fb1e92"))])
  (corfu .
-	[(2 0)
+	[(2 1)
 	 ((emacs
 	   (28 1))
 	  (compat
@@ -846,7 +846,7 @@
 	  (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	  (:commit . "061d926d0f0eb2633416deeddc403a1a67b062ae"))])
+	  (:commit . "6db826974963f8fb5d8b9832e7c09da2fea3296a"))])
  (coterm .
 	 [(1 6)
 	  ((emacs
@@ -1873,7 +1873,7 @@
 	    (:url . "https://elpa.gnu.org/packages/flylisp.html")
 	    (:commit . "20fe3e77bb73773c8678e65ae38020b0b7f996eb"))])
  (flymake .
-	  [(1 4 0)
+	  [(1 4 1)
 	   ((emacs
 	     (26 1))
 	    (eldoc
@@ -1886,7 +1886,7 @@
 	    (:authors
 	     ("Pavel Kobyakov" . "pk_at_work@yahoo.com"))
 	    (:url . "https://elpa.gnu.org/packages/flymake.html")
-	    (:commit . "64f4fbde8ae84c10f9e86ad1293c67ff78e867f0"))])
+	    (:commit . "a25fc9a518dc1c4bf1ef86bb949ed2f3c995adea"))])
  (flymake-clippy .
 		 [(1 1 0)
 		  ((emacs
@@ -5299,7 +5299,7 @@
 	  (:url . "https://elpa.gnu.org/packages/xclip.html")
 	  (:commit . "7febe164de2a881b83b9d604d3c7cf20b69f422d"))])
  (xeft .
-       [(3 4)
+       [(3 5)
 	((emacs
 	  (26 0)))
 	"Deft feat. Xapian" tar
@@ -5308,7 +5308,7 @@
 	 (:maintainer "Yuan Fu" . "casouri@gmail.com")
 	 (:authors
 	  ("Yuan Fu" . "casouri@gmail.com"))
-	 (:commit . "ded5a3719bfccbb8739de81362efd2c12e6c41f0"))])
+	 (:commit . "21465bba67c83a923b71808e1788ab1060745976"))])
  (xelb .
        [(0 20)
 	((emacs
