@@ -1,0 +1,30 @@
+2025-04-18T18:56:00.469Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-04-18T18:56:00.472Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-04-18T18:56:00.745Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.2-arch1-1)
+2025-04-18T18:56:00.745Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-04-18T18:56:01.599Z - info: [ui] Stats reported.
+2025-04-18T18:56:47.205Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-04-18T18:56:47.208Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-04-18T18:56:47.227Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-18T18:56:47.468Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.2-arch1-1)
+2025-04-18T18:56:47.468Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-04-18T18:56:51.843Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 0.098s
+2025-04-18T18:57:02.838Z - info: [ui] Subscribed 'PalDew' to Alive channel
+2025-04-18T18:57:03.081Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 1.5s of which 0.0s paused, total 1.5s
+2025-04-18T18:57:09.476Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-18T18:57:09.771Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/Obsidian-new' took 0.112s
+2025-04-18T18:57:10.319Z - info: [ui] Executing push: git push origin main:main --progress (took 16.223s)
+2025-04-18T18:57:17.930Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-18T18:57:20.948Z - info: [ui] [BranchPruner] Last prune took place 23 seconds ago - skipping
+2025-04-18T18:57:25.969Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.645s)
+2025-04-18T18:57:26.664Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-18T18:57:30.075Z - info: [ui] Executing push: git push origin master:master --progress (took 18.770s)
+2025-04-18T18:57:31.011Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.609s)
+2025-04-18T18:57:34.648Z - info: [ui] [BranchPruner] Last prune took place 37 seconds ago - skipping
+2025-04-18T18:57:41.596Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.624s)
+2025-04-18T18:57:45.440Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-18T18:57:46.013Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.927s)
+2025-04-18T18:57:46.679Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.666s)
+2025-04-18T18:58:01.381Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-18T18:58:01.967Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.950s)
+2025-04-18T18:58:18.491Z - info: [ui] [BranchPruner] Last prune took place 2 minutes ago - skipping

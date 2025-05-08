@@ -1,0 +1,28 @@
+2025-03-28T07:37:40.147Z - info: [ui] [AppStore] loading 3 repositories from store
+2025-03-28T07:37:40.150Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-03-28T07:37:40.342Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.0-arch1-1)
+2025-03-28T07:37:40.343Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-03-28T07:37:41.230Z - info: [ui] Stats reported.
+2025-03-28T07:37:55.703Z - info: [ui] Subscribed 'PalDew' to Alive channel
+2025-03-28T07:38:22.858Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.612s)
+2025-03-28T07:38:38.437Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.577s)
+2025-03-28T07:40:27.340Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-03-28T07:40:29.417Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 17.446s)
+2025-03-28T07:40:42.821Z - info: [ui] [AppStore] adding repository at /home/palash/.config/dotfiles to store
+2025-03-28T07:40:44.757Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-03-28T07:40:46.697Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 17.279s)
+2025-03-28T07:40:47.469Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 35.9s of which 0.0s paused, total 35.9s
+2025-03-28T07:41:06.174Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-03-28T07:41:07.004Z - info: [ui] Executing push: git push origin main --set-upstream --progress (took 16.175s)
+2025-03-28T07:41:22.566Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.559s)
+2025-03-28T07:41:38.131Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.557s)
+2025-03-28T07:51:25.612Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.606s)
+2025-03-28T07:51:30.258Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-03-28T07:51:31.059Z - info: [ui] Executing pull: git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin (took 16.120s)
+2025-03-28T07:51:34.734Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-03-28T07:51:35.339Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.934s)
+2025-03-28T07:51:41.166Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.539s)
+2025-03-28T07:51:46.392Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-03-28T07:51:46.985Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.924s)
+2025-03-28T07:51:50.696Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-03-28T07:51:51.289Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.948s)

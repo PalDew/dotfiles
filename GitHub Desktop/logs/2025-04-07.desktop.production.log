@@ -1,0 +1,33 @@
+2025-04-07T09:25:20.119Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-04-07T09:25:20.122Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-04-07T09:25:20.321Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.12.21-1-lts)
+2025-04-07T09:25:20.321Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-04-07T09:25:21.161Z - info: [ui] Stats reported.
+2025-04-07T09:25:35.728Z - info: [ui] Subscribed 'PalDew' to Alive channel
+2025-04-07T09:25:41.266Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-07T09:25:41.853Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.921s)
+2025-04-07T09:25:57.187Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-07T09:25:57.736Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.880s)
+2025-04-07T09:26:30.571Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-07T09:26:44.197Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.585s)
+2025-04-07T09:26:45.328Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-07T09:26:46.201Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 16.218s)
+2025-04-07T09:26:59.781Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.582s)
+2025-04-07T09:27:01.533Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-07T09:27:02.118Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.915s)
+2025-04-07T09:27:13.032Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 38.5s of which 5.0s paused, total 43.5s
+2025-04-07T09:27:19.912Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-07T09:27:20.532Z - info: [ui] Executing pull: git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin (took 15.950s)
+2025-04-07T09:27:20.534Z - error: [ui] `git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin` exited with an unexpected code: 1.
+error: Your local changes to the following files would be overwritten by merge:
+	.obsidian/workspace.json
+Please commit your changes or stash them before you merge.
+Aborting
+Updating a2fc92c..b7fee68
+
+(The error was parsed as 54: null)
+2025-04-07T09:27:25.822Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-07T09:27:38.614Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-07T09:27:39.317Z - info: [ui] Executing pull: git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin (took 16.014s)
+2025-04-07T09:27:54.654Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-07T09:27:55.235Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.915s)

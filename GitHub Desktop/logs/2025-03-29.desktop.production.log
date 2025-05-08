@@ -1,0 +1,106 @@
+2025-03-29T16:43:50.640Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-03-29T16:43:50.643Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-03-29T16:43:50.771Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.0-arch1-1)
+2025-03-29T16:43:50.771Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-03-29T16:43:51.632Z - info: [ui] Stats reported.
+2025-03-29T16:44:06.229Z - info: [ui] Subscribed 'PalDew' to Alive channel
+2025-03-29T16:44:11.456Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 0.8s of which 0.0s paused, total 0.8s
+2025-03-29T16:44:12.572Z - info: [ui] [BranchPruner] No branches to prune.
+2025-03-29T16:44:15.191Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.599s)
+2025-03-29T16:44:18.051Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/Experiment1' took 0.063s
+2025-03-29T16:44:21.649Z - info: [ui] [BranchPruner] Last prune took place 27 seconds ago - skipping
+2025-03-29T16:44:39.652Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.575s)
+2025-03-29T16:44:39.653Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.594s)
+2025-03-29T16:44:55.213Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.557s)
+2025-03-29T16:46:08.143Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 1.298s
+2025-03-29T16:46:08.168Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2025-03-29T16:46:11.728Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	nvimlazy/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2025-03-29T16:46:11.728Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 0.059s
+2025-03-29T16:46:20.520Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	nvimlazy/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2025-03-29T16:46:20.528Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 0.042s
+2025-03-29T16:46:36.338Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2025-03-29T16:46:38.939Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	nvimlazy/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2025-03-29T16:46:38.939Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 0.037s
+2025-03-29T16:46:41.073Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-03-29T16:46:46.024Z - info: [ui] Executing push: git push origin main:main --progress (took 20.277s)
+2025-03-29T16:47:01.584Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.545s)
+2025-03-29T16:47:02.325Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	nvimlazy/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2025-03-29T16:47:02.325Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 0.045s
+2025-03-29T16:47:17.158Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.556s)
+2025-03-29T16:47:18.245Z - info: [ui] [BranchPruner] Last prune took place 3 minutes ago - skipping
+2025-03-29T16:47:23.208Z - info: [ui] [BranchPruner] Last prune took place 3 minutes ago - skipping
+2025-03-29T16:47:23.208Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2025-03-29T16:47:28.883Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	nvimlazy/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2025-03-29T16:47:28.888Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 0.047s
+2025-03-29T16:47:55.341Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-03-29T16:47:55.344Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-03-29T16:47:55.364Z - info: [ui] [BranchPruner] Last prune took place 4 minutes ago - skipping
+2025-03-29T16:47:55.459Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2025-03-29T16:47:55.477Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.0-arch1-1)
+2025-03-29T16:47:55.477Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-03-29T16:47:59.133Z - info: [ui] [BranchPruner] Last prune took place 4 minutes ago - skipping
+2025-03-29T16:48:04.321Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	nvimlazy/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2025-03-29T16:48:04.321Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 0.047s
+2025-03-29T16:48:10.963Z - info: [ui] Subscribed 'PalDew' to Alive channel
+2025-03-29T16:48:23.117Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.572s)

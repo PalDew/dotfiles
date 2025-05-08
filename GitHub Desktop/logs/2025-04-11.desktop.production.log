@@ -1,0 +1,39 @@
+2025-04-11T19:36:29.192Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-04-11T19:36:29.196Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-04-11T19:36:29.504Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.1-arch1-1)
+2025-04-11T19:36:29.505Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-04-11T19:36:30.366Z - info: [ui] Stats reported.
+2025-04-11T19:36:33.621Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/Obsidian-new' took 0.063s
+2025-04-11T19:36:37.822Z - info: [ui] [AppStore. _popStashEntry] popped stash with commit id 4a215263145ba8f7e8399d4007302a1fb917d23f
+2025-04-11T19:36:41.487Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-04-11T19:36:44.852Z - info: [ui] Subscribed 'PalDew' to Alive channel
+2025-04-11T19:36:53.870Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/Experiment1' took 0.065s
+2025-04-11T19:36:58.681Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 0.9s of which 0.0s paused, total 0.9s
+2025-04-11T19:37:03.219Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-11T19:37:04.075Z - info: [ui] Executing push: git push origin master:master --progress (took 16.236s)
+2025-04-11T19:37:04.703Z - info: [ui] [BranchPruner] No branches to prune.
+2025-04-11T19:37:11.615Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-11T19:37:12.207Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/scratch' took 0.074s
+2025-04-11T19:37:12.544Z - info: [ui] Executing push: git push origin main:main --progress (took 16.323s)
+2025-04-11T19:37:14.885Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-11T19:37:19.324Z - info: [ui] [BranchPruner] Last prune took place 15 seconds ago - skipping
+2025-04-11T19:37:19.446Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-11T19:37:19.950Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-11T19:37:20.000Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.921s)
+2025-04-11T19:37:20.518Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.913s)
+2025-04-11T19:37:22.135Z - info: [ui] [BranchPruner] Last prune took place 32 seconds ago - skipping
+2025-04-11T19:37:24.996Z - info: [ui] [BranchPruner] Last prune took place 20 seconds ago - skipping
+2025-04-11T19:37:28.215Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.661s)
+2025-04-11T19:37:35.378Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-11T19:37:35.931Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-11T19:37:35.948Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.943s)
+2025-04-11T19:37:36.517Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.990s)
+2025-04-11T19:37:43.859Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.641s)
+2025-04-11T19:37:54.421Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-11T19:38:07.545Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-11T19:38:07.847Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-11T19:38:08.288Z - info: [ui] Executing push: git push origin master:master --progress (took 16.100s)
+2025-04-11T19:38:23.647Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-11T19:38:24.192Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.896s)
+2025-04-11T19:38:39.539Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-11T19:38:40.104Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.911s)

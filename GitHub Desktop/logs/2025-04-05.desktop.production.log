@@ -1,0 +1,20 @@
+2025-04-05T06:44:25.881Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-04-05T06:44:25.884Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-04-05T06:44:26.050Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.0-arch1-1)
+2025-04-05T06:44:26.050Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-04-05T06:44:26.934Z - info: [ui] Stats reported.
+2025-04-05T06:44:41.483Z - info: [ui] Subscribed 'PalDew' to Alive channel
+2025-04-05T06:44:43.870Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 0.8s of which 0.0s paused, total 0.8s
+2025-04-05T06:45:00.951Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/scratch' took 0.057s
+2025-04-05T06:45:08.991Z - info: [ui] [BranchPruner] Last prune took place 43 seconds ago - skipping
+2025-04-05T06:45:20.523Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-05T06:45:21.423Z - info: [ui] Executing push: git push origin master:master --progress (took 16.305s)
+2025-04-05T06:45:22.784Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.630s)
+2025-04-05T06:45:24.628Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.636s)
+2025-04-05T06:45:36.782Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-05T06:45:37.359Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.932s)
+2025-04-05T06:45:38.370Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.585s)
+2025-04-05T06:45:38.383Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-05T06:45:40.188Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.559s)
+2025-04-05T06:45:52.704Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-05T06:45:53.283Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.922s)

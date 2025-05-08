@@ -1,0 +1,56 @@
+2025-03-30T11:30:33.700Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-03-30T11:30:33.702Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-03-30T11:30:33.725Z - info: [ui] [BranchPruner] Last prune took place 19 hours ago - skipping
+2025-03-30T11:30:33.818Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2025-03-30T11:30:33.824Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.0-arch1-1)
+2025-03-30T11:30:33.825Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-03-30T11:30:42.706Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	nvimlazy/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2025-03-30T11:30:42.707Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 0.059s
+2025-03-30T11:30:49.288Z - info: [ui] Subscribed 'PalDew' to Alive channel
+2025-03-30T11:31:02.712Z - info: [ui] [BranchPruner] Last prune took place 19 hours ago - skipping
+2025-03-30T11:31:12.970Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.577s)
+2025-03-30T11:31:28.567Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.595s)
+2025-03-30T11:32:12.609Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 0.075s
+2025-03-30T11:32:17.517Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 6.2s of which 0.0s paused, total 6.2s
+2025-03-30T11:32:18.781Z - info: [ui] [BranchPruner] Last prune took place 19 hours ago - skipping
+2025-03-30T11:32:31.284Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-03-30T11:32:32.773Z - info: [ui] Executing push: git push origin main:main --progress (took 16.826s)
+2025-03-30T11:32:34.722Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.940s)
+2025-03-30T11:32:48.340Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.563s)
+2025-03-30T11:32:50.336Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.611s)
+2025-03-30T11:33:03.903Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.547s)
+2025-03-30T11:35:43.450Z - info: [ui] [BranchPruner] Last prune took place 5 minutes ago - skipping
+2025-03-30T11:35:45.526Z - info: [ui] [BranchPruner] Last prune took place 19 hours ago - skipping
+2025-03-30T11:35:56.400Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-03-30T11:35:57.344Z - info: [ui] Executing push: git push origin main:main --progress (took 16.268s)
+2025-03-30T11:35:58.766Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-03-30T11:35:59.320Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.862s)
+2025-03-30T11:36:12.902Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.555s)
+2025-03-30T11:36:14.641Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-03-30T11:36:15.224Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.902s)
+2025-03-30T11:36:28.464Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.542s)
+2025-03-30T12:05:58.864Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-03-30T12:05:58.867Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-03-30T12:05:58.886Z - info: [ui] [BranchPruner] Last prune took place 19 hours ago - skipping
+2025-03-30T12:05:58.998Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.0-arch1-1)
+2025-03-30T12:05:58.998Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-03-30T12:06:03.778Z - info: [ui] [BranchPruner] Last prune took place 35 minutes ago - skipping
+2025-03-30T12:06:06.825Z - info: [ui] [BranchPruner] Last prune took place 19 hours ago - skipping
+2025-03-30T12:06:14.437Z - info: [ui] Subscribed 'PalDew' to Alive channel
+2025-03-30T12:06:17.035Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.572s)
+2025-03-30T12:06:23.927Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.839s)
+2025-03-30T12:06:32.599Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.563s)
+2025-03-30T12:06:39.503Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.573s)
+2025-03-30T12:06:41.956Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 9.2s of which 27.3s paused, total 36.5s
+2025-03-30T12:07:00.012Z - info: [ui] Executing pull: git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin (took 15.643s)
+2025-03-30T12:07:15.552Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.539s)

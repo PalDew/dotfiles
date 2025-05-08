@@ -1,0 +1,36 @@
+2025-04-22T06:04:48.047Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-04-22T06:04:48.050Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-04-22T06:04:48.241Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.2-arch1-1)
+2025-04-22T06:04:48.241Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-04-22T06:04:49.117Z - info: [ui] Stats reported.
+2025-04-22T06:05:03.669Z - info: [ui] Subscribed 'PalDew' to Alive channel
+2025-04-22T06:05:30.425Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-22T06:05:31.322Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 16.253s)
+2025-04-22T06:05:46.661Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-22T06:05:47.224Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.898s)
+2025-04-22T06:06:04.441Z - info: [ui] [BranchPruner] Last prune took place 4 seconds ago - skipping
+2025-04-22T06:06:10.027Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-22T06:06:10.759Z - info: [ui] Executing pull: git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin (took 16.082s)
+2025-04-22T06:06:13.420Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.866s)
+2025-04-22T06:06:14.296Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-22T06:06:16.297Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 18.705s)
+2025-04-22T06:06:18.191Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-22T06:06:19.022Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 16.166s)
+2025-04-22T06:06:26.097Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-22T06:06:26.660Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.898s)
+2025-04-22T06:06:28.973Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.551s)
+2025-04-22T06:06:31.870Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.571s)
+2025-04-22T06:06:34.326Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-22T06:06:34.885Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.861s)
+2025-04-22T06:06:35.354Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 31.9s of which 6.2s paused, total 38.2s
+2025-04-22T06:06:51.950Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-22T06:06:55.243Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-22T06:07:03.056Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-22T06:07:09.128Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-22T06:07:09.803Z - info: [ui] Executing pull: git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin (took 15.993s)
+2025-04-22T06:07:11.945Z - info: [ui] Executing pull: git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin (took 15.667s)
+2025-04-22T06:07:20.392Z - info: [ui] Executing pull: git -c rebase.backend=merge pull --ff --recurse-submodules --progress origin (took 16.356s)
+2025-04-22T06:07:25.164Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-22T06:07:25.698Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.893s)
+2025-04-22T06:07:27.520Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.573s)
+2025-04-22T06:07:29.565Z - info: [ui] [BranchPruner] Last prune took place 2 minutes ago - skipping

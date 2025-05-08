@@ -25,12 +25,14 @@ exec --no-startup-id dex --autostart --environment i3
 exec_always --no-startup-id xrandr --output HDMI-0 --mode 2560x1440 --rate 59
 exec_always --no-startup-id picom
 exec_always --no-startup-id feh --bg-scale /home/palash/Downloads/wall.jpg
-exec_always --no-startup-id xinput set-prop 9 "libinput Natural Scrolling Enabled" 1
-exec_always --no-startup-id xinput set-button-map 9 3 2 1
+exec_always --no-startup-id xinput set-prop 16 "libinput Natural Scrolling Enabled" 1
 exec_always --no-startup-id xset r rate 200 30
+exec --no-startup-id xmodmap -e "pointer = 3 2 1"
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 bindsym Mod1+shift+p exec flameshot gui
 bindsym $mod+space exec --no-startup-id rofi -show combi
+bindsym $mod+Control+Left workspace prev
+bindsym $mod+Control+Right workspace next
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
@@ -50,10 +52,11 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec kitty
-
+# bindsym $mod+Return exec kitty
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+c kill
+bindsym $mod+q exec kitty
+bindsym Mod1+q exec ghostty
 
 # start dmenu (a program launcher)
 bindsym Mod1+space exec --no-startup-id i3-dmenu-desktop
@@ -229,5 +232,6 @@ client.placeholder       $overlay0 $base  $text    $overlay0  $overlay0
 client.background        $base
 
 
-gaps inner 2
-gaps outer 2
+gaps inner 5
+gaps outer 0
+

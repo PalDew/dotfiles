@@ -1,0 +1,40 @@
+2025-05-04T18:41:25.836Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-05-04T18:41:25.839Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-05-04T18:41:26.143Z - warn: [ui] Error refreshing account 'PalDew'
+Error: Cannot update an account which doesn't have a token: PalDew
+    at at (/home/palash/webpack:/app/src/lib/fatal-error.ts:3:9)
+    at /home/palash/webpack:/app/src/lib/stores/accounts-store.ts:248:12
+    at Op.tryUpdateAccount (/home/palash/webpack:/app/src/lib/stores/accounts-store.ts:136:20)
+    at /home/palash/webpack:/app/src/lib/stores/accounts-store.ts:116:37
+    at Array.map (<anonymous>)
+    at Op.refresh (/home/palash/webpack:/app/src/lib/stores/accounts-store.ts:116:21)
+    at Op.loadInitialState (/home/palash/webpack:/app/src/lib/stores/app-store.ts:2309:24)
+2025-05-04T18:41:26.224Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.5-arch1-1)
+2025-05-04T18:41:26.224Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-05-04T18:41:27.107Z - info: [ui] Stats reported.
+2025-05-04T18:41:27.977Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.763s)
+2025-05-04T18:41:27.978Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.771s)
+2025-05-04T18:41:27.978Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.128s)
+2025-05-04T18:41:28.155Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.443s)
+2025-05-04T18:41:29.628Z - info: [ui] Executing getChangesFiles: git log 3348cfbe663bbaafe53e21f5781a519b0aff3271 -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 1.544s)
+2025-05-04T18:41:41.418Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-05-04T18:41:41.510Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-05-04T18:41:41.553Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-05-04T18:41:41.596Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-05-04T18:42:47.843Z - warn: [ui] fetchRepository: 'PalDew/Obsidian-new' returned a 404
+2025-05-04T18:42:47.892Z - warn: [ui] fetchRepository: 'PalDew/Obsidian-new' returned a 404
+2025-05-04T18:43:03.354Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-04T18:43:03.626Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.718s)
+2025-05-04T18:43:03.631Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/PalDew/Obsidian-new.git/'
+
+(The error was parsed as 4: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)

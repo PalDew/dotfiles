@@ -1,0 +1,49 @@
+2025-04-17T13:08:20.729Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-04-17T13:08:20.732Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-04-17T13:08:21.027Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.2-arch1-1)
+2025-04-17T13:08:21.027Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-04-17T13:08:21.902Z - info: [ui] Stats reported.
+2025-04-17T13:08:30.519Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/scratch' took 0.085s
+2025-04-17T13:08:36.325Z - info: [ui] Subscribed 'PalDew' to Alive channel
+2025-04-17T13:08:47.039Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-17T13:08:47.834Z - info: [ui] Executing push: git push origin master:master --progress (took 16.135s)
+2025-04-17T13:08:58.514Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 0.9s of which 0.0s paused, total 0.9s
+2025-04-17T13:09:03.176Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-17T13:09:03.719Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.874s)
+2025-04-17T13:09:05.567Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/Obsidian-new' took 0.069s
+2025-04-17T13:09:19.084Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-17T13:09:19.641Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.919s)
+2025-04-17T13:09:23.105Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-17T13:09:23.106Z - info: [ui] [AppStore. _dropStashEntry] dropped stash with commit id 4a215263145ba8f7e8399d4007302a1fb917d23f
+2025-04-17T13:09:23.961Z - info: [ui] Executing push: git push origin master:master --progress (took 16.194s)
+2025-04-17T13:09:27.544Z - info: [ui] [BranchPruner] No branches to prune.
+2025-04-17T13:09:39.292Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-17T13:09:39.914Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.947s)
+2025-04-17T13:09:41.931Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/Experiment1' took 0.064s
+2025-04-17T13:09:43.015Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.584s)
+2025-04-17T13:09:45.396Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-17T13:09:47.300Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-17T13:09:51.423Z - info: [ui] [BranchPruner] Last prune took place 24 seconds ago - skipping
+2025-04-17T13:09:53.586Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-04-17T13:09:55.270Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-17T13:09:55.869Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.952s)
+2025-04-17T13:09:58.118Z - info: [ui] [BranchPruner] Last prune took place 31 seconds ago - skipping
+2025-04-17T13:09:58.646Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.629s)
+2025-04-17T13:10:11.768Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.570s)
+2025-04-17T13:10:15.868Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-17T13:10:16.733Z - info: [ui] Executing push: git push origin main:main --progress (took 16.228s)
+2025-04-17T13:10:27.366Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.576s)
+2025-04-17T13:10:32.314Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.570s)
+2025-04-17T13:10:35.310Z - info: [ui] [BranchPruner] Last prune took place 39 seconds ago - skipping
+2025-04-17T17:38:35.118Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-04-17T17:38:35.121Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-04-17T17:38:35.138Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2025-04-17T17:38:35.453Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.2-arch1-1)
+2025-04-17T17:38:35.454Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-04-17T17:38:50.327Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 0.092s
+2025-04-17T17:38:50.735Z - info: [ui] Subscribed 'PalDew' to Alive channel
+2025-04-17T17:39:07.317Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-04-17T17:39:08.378Z - info: [ui] Executing push: git push origin main:main --progress (took 16.433s)
+2025-04-17T17:39:23.968Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.582s)
+2025-04-17T17:39:39.580Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.609s)
+2025-04-17T17:41:31.566Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 1.3s of which 0.0s paused, total 1.3s

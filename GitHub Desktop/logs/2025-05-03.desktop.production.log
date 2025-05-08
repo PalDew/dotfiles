@@ -1,0 +1,38 @@
+2025-05-03T15:55:29.846Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-05-03T15:55:29.848Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-05-03T15:55:30.051Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.4-arch1-2)
+2025-05-03T15:55:30.052Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-05-03T15:55:30.930Z - info: [ui] Stats reported.
+2025-05-03T15:55:34.578Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/scratch' took 0.056s
+2025-05-03T15:55:42.494Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/Obsidian-new' took 0.069s
+2025-05-03T15:55:45.445Z - info: [ui] Subscribed 'PalDew' to Alive channel
+2025-05-03T15:55:46.888Z - info: [ui] [BranchPruner] Last prune took place 17 seconds ago - skipping
+2025-05-03T15:55:51.616Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-03T15:55:52.445Z - info: [ui] Executing push: git push origin master:master --progress (took 16.191s)
+2025-05-03T15:55:59.453Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 0.4s of which 0.0s paused, total 0.4s
+2025-05-03T15:55:59.693Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-03T15:55:59.936Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 4.135s)
+2025-05-03T15:56:00.545Z - info: [ui] Executing push: git push origin master:master --progress (took 16.218s)
+2025-05-03T15:56:01.365Z - info: [ui] Executing createCommit: git commit -F - (took 1.418s)
+2025-05-03T15:56:01.392Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 6.048s
+2025-05-03T15:56:04.210Z - info: [ui] [BranchPruner] Last prune took place 26 seconds ago - skipping
+2025-05-03T15:56:07.331Z - info: [ui] [BranchPruner] Last prune took place 18 seconds ago - skipping
+2025-05-03T15:56:07.796Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-03T15:56:08.391Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.929s)
+2025-05-03T15:56:12.339Z - info: [ui] [BranchPruner] Last prune took place 42 seconds ago - skipping
+2025-05-03T15:56:15.273Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.596s)
+2025-05-03T15:56:15.743Z - info: [ui] [BranchPruner] Last prune took place 16 seconds ago - skipping
+2025-05-03T15:56:15.858Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-03T15:56:16.440Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.894s)
+2025-05-03T15:56:17.811Z - info: [ui] [BranchPruner] Last prune took place 40 seconds ago - skipping
+2025-05-03T15:56:22.963Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.630s)
+2025-05-03T15:56:23.741Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-03T15:56:24.344Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.949s)
+2025-05-03T15:56:30.905Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.627s)
+2025-05-03T15:56:31.817Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-03T15:56:32.450Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 16.006s)
+2025-05-03T15:56:38.595Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.630s)
+2025-05-03T15:57:06.654Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-05-03T15:57:24.282Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-03T15:57:40.520Z - info: [ui] Executing push: git push origin main:main --progress (took 31.583s)
+2025-05-03T15:57:56.121Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.586s)
