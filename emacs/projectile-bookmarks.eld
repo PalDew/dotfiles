@@ -1,1 +1,1 @@
-("~/Documents/scratch/" "~/" "~/.config/emacs/" "~/Documents/Obsidian-new/" "~/Documents/Experiment1/")
+("~/Documents/Experiment1/" "~/Documents/Obsidian-new/" "~/Documents/scratch/" "~/.config/emacs/" "/run/media/palash/afe5bd6d-263a-409e-a996-ad591a6f55c6/Documents/Obsidian-new/" "~/")

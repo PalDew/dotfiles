@@ -48,6 +48,6 @@ set notification-fg "#151515" #00
 set recolor false
 
 
-set render-loading "false"
-set default-bg "#000000CC"     # Semi-transparent black
-set default-fg "#F7F7F6"       # Soft white for good contrast
+# set render-loading "false"
+# set default-bg "#000000CC"     # Semi-transparent black
+# set default-fg "#F7F7F6"       # Soft white for good contrast

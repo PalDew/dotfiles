@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Iosevka Nerd Font 8
+font pango:Iosevka Nerd Font 12
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -22,13 +22,12 @@ font pango:Iosevka Nerd Font 8
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
-exec_always --no-startup-id xrandr --output HDMI-0 --mode 2560x1440 --rate 59
+exec_always --no-startup-id xrandr --output HDMI-0 --mode 3840x2160 --rate 60
 exec_always --no-startup-id picom
 exec_always --no-startup-id feh --bg-scale /home/palash/Downloads/wall.jpg
 exec_always --no-startup-id xinput set-prop 16 "libinput Natural Scrolling Enabled" 1
 exec_always --no-startup-id xset r rate 200 30
 exec --no-startup-id xmodmap -e "pointer = 3 2 1"
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 bindsym Mod1+shift+p exec flameshot gui
 bindsym $mod+space exec --no-startup-id rofi -show combi
 bindsym $mod+Control+Left workspace prev
@@ -36,7 +35,8 @@ bindsym $mod+Control+Right workspace next
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
-
+exec_always killall polybar
+exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
@@ -189,9 +189,9 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-        status_command i3status
-       }
+#bar {
+#        status_command i3status
+#       }
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)

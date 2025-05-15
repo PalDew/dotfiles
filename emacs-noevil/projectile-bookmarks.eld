@@ -1,0 +1,1 @@
+("~/Documents/Experiment1/" "~/" "~/Documents/scratch/" "~/Documents/Obsidian-new/" "~/Documents/dotfiles/")
