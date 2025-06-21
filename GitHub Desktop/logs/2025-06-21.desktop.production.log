@@ -1,0 +1,64 @@
+2025-06-21T18:03:57.124Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-06-21T18:03:57.127Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-06-21T18:03:57.334Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.15.3-arch1-1)
+2025-06-21T18:03:57.335Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-06-21T18:03:58.326Z - info: [ui] Stats reported.
+2025-06-21T18:04:03.779Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/Experiment1' took 0.057s
+2025-06-21T18:04:13.310Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 1.7s of which 0.0s paused, total 1.7s
+2025-06-21T18:04:13.561Z - info: [ui] [BranchPruner] No branches to prune.
+2025-06-21T18:04:18.412Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.589s)
+2025-06-21T18:04:19.496Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/Obsidian-new' took 0.056s
+2025-06-21T18:04:22.171Z - info: [ui] [BranchPruner] No branches to prune.
+2025-06-21T18:04:28.730Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:04:29.316Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.916s)
+2025-06-21T18:04:34.030Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.615s)
+2025-06-21T18:04:37.375Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:04:37.928Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.867s)
+2025-06-21T18:04:38.372Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/scratch' took 0.068s
+2025-06-21T18:04:44.663Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:04:45.196Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.877s)
+2025-06-21T18:04:53.307Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:04:53.908Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.977s)
+2025-06-21T18:05:24.923Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-06-21T18:05:27.540Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-06-21T18:05:32.602Z - info: [ui] [BranchPruner] Last prune took place 2 minutes ago - skipping
+2025-06-21T18:05:37.680Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:05:38.438Z - info: [ui] Executing push: git push origin master:master --progress (took 16.061s)
+2025-06-21T18:05:45.871Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:05:46.764Z - info: [ui] Executing push: git push origin master:master --progress (took 16.273s)
+2025-06-21T18:05:49.402Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:05:50.306Z - info: [ui] Executing push: git push origin main:main --progress (took 16.246s)
+2025-06-21T18:05:53.758Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:05:54.333Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.893s)
+2025-06-21T18:06:02.084Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:06:02.694Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.926s)
+2025-06-21T18:06:05.860Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.553s)
+2025-06-21T18:06:09.645Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:06:10.203Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.869s)
+2025-06-21T18:06:18.010Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:06:18.549Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.855s)
+2025-06-21T18:06:21.498Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.636s)
+2025-06-21T18:12:22.197Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-06-21T18:12:22.200Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-06-21T18:12:22.216Z - info: [ui] [BranchPruner] Last prune took place 8 minutes ago - skipping
+2025-06-21T18:12:22.433Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.12.34-1-lts)
+2025-06-21T18:12:22.436Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-06-21T18:12:26.243Z - info: [ui] [BranchPruner] Last prune took place 8 minutes ago - skipping
+2025-06-21T18:12:28.852Z - info: [ui] [BranchPruner] Last prune took place 8 minutes ago - skipping
+2025-06-21T18:12:33.140Z - info: [ui] [BranchPruner] Last prune took place 8 minutes ago - skipping
+2025-06-21T18:12:35.659Z - info: [ui] [BranchPruner] Last prune took place 9 minutes ago - skipping
+2025-06-21T18:12:42.791Z - info: [ui] [BranchPruner] Last prune took place 9 minutes ago - skipping
+2025-06-21T18:12:44.107Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.333s)
+2025-06-21T18:12:44.112Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.351s)
+2025-06-21T18:12:46.764Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:12:47.342Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.956s)
+2025-06-21T18:12:49.451Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:12:50.018Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.905s)
+2025-06-21T18:12:52.596Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.607s)
+2025-06-21T18:13:02.662Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:13:03.221Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.878s)
+2025-06-21T18:13:05.370Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-06-21T18:13:06.007Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.985s)
+2025-06-21T18:13:08.201Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.601s)
+2025-06-21T18:13:15.237Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 0.1s of which 0.0s paused, total 0.1s
+2025-06-21T18:13:21.321Z - info: [ui] [BranchPruner] Last prune took place 9 minutes ago - skipping

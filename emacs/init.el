@@ -135,7 +135,7 @@
   (recentf-mode t) ;; Enable recent file mode
 
   (global-visual-line-mode t)           ;; Enable truncated lines
-  (display-line-numbers-type 'relative) ;; Relative line numbers
+  ;;(display-line-numbers-type 'relative) ;; Relative line numbers
   (global-display-line-numbers-mode t)  ;; Display line numbers
 
   (mouse-wheel-progressive-speed nil) ;; Disable progressive speed when scrolling
@@ -248,6 +248,10 @@
                 (setq-local electric-pair-inhibit-predicate
                             `(lambda (c)
                                (if (char-equal c ?<) t (,electric-pair-inhibit-predicate c))))))
+	:config
+   (org-babel-do-load-languages
+   'org-babel-load-languages
+   '((python . t)))
   )
 
 (use-package toc-org

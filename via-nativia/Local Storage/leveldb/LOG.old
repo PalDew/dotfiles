@@ -1,2 +1,3 @@
-2025/05/04-19:59:48.413 bb5 Creating DB /home/palash/.config/via-nativia/Local Storage/leveldb since it was missing.
-2025/05/04-19:59:48.423 bb5 Reusing MANIFEST /home/palash/.config/via-nativia/Local Storage/leveldb/MANIFEST-000001
+2025/06/13-23:34:12.099 bc7f Reusing MANIFEST /home/palash/.config/via-nativia/Local Storage/leveldb/MANIFEST-000001
+2025/06/13-23:34:12.102 bc7f Recovering log #13
+2025/06/13-23:34:12.102 bc7f Reusing old log /home/palash/.config/via-nativia/Local Storage/leveldb/000013.log 

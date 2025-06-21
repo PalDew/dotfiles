@@ -1,0 +1,14 @@
+2025/06/16-11:54:24.749 4 Reusing MANIFEST /home/palash/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2025/06/16-11:54:24.752 4 Recovering log #83
+2025/06/16-11:54:24.752 4 Level-0 table #86: started
+2025/06/16-11:54:24.757 4 Level-0 table #86: 18223 bytes OK
+2025/06/16-11:54:24.759 4 Delete type=0 #83
+2025/06/16-11:54:24.760 5 Compacting 4@0 + 1@1 files
+2025/06/16-11:54:24.763 5 Generated table #88@0: 133 keys, 158081 bytes
+2025/06/16-11:54:24.763 5 Compacted 4@0 + 1@1 files => 158081 bytes
+2025/06/16-11:54:24.764 5 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/06/16-11:54:24.764 5 Delete type=2 #78
+2025/06/16-11:54:24.764 5 Delete type=2 #86
+2025/06/16-11:54:24.764 5 Delete type=2 #82
+2025/06/16-11:54:24.764 5 Delete type=2 #84
+2025/06/16-11:54:24.764 5 Delete type=2 #76

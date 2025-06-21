@@ -1,0 +1,27 @@
+2025-04-01 02:24:02.298 [info] Getting Manifest... formulahendry.code-runner
+2025-04-01 02:24:02.437 [info] Installing extension: formulahendry.code-runner {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/palash/.vscode/extensions/extensions.json","path":"/home/palash/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-04-01 02:24:19.221 [info] Extension signature verification result for formulahendry.code-runner: Success. Internal Code: 0. Executed: true. Duration: 1146ms.
+2025-04-01 02:24:19.273 [info] Extracted extension to file:///home/palash/.vscode/extensions/formulahendry.code-runner-0.12.2: formulahendry.code-runner
+2025-04-01 02:24:19.286 [info] Renamed to /home/palash/.vscode/extensions/formulahendry.code-runner-0.12.2
+2025-04-01 02:24:19.293 [info] Extension installed successfully: formulahendry.code-runner vscode-userdata:/home/palash/.vscode/extensions/extensions.json
+2025-04-01 02:24:34.769 [info] Getting Manifest... vscodevim.vim
+2025-04-01 02:24:34.903 [info] Installing extension: vscodevim.vim {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/palash/.vscode/extensions/extensions.json","path":"/home/palash/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-04-01 02:24:46.885 [info] Extension signature verification result for vscodevim.vim: Success. Internal Code: 0. Executed: true. Duration: 448ms.
+2025-04-01 02:24:46.912 [info] Extracted extension to file:///home/palash/.vscode/extensions/vscodevim.vim-1.29.0: vscodevim.vim
+2025-04-01 02:24:46.916 [info] Renamed to /home/palash/.vscode/extensions/vscodevim.vim-1.29.0
+2025-04-01 02:24:46.924 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/palash/.vscode/extensions/extensions.json
+2025-04-01 02:25:45.354 [info] Getting Manifest... jacobdufault.fuzzy-search
+2025-04-01 02:25:45.495 [info] Installing extension: jacobdufault.fuzzy-search {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/palash/.vscode/extensions/extensions.json","path":"/home/palash/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-04-01 02:25:51.362 [info] Extension signature verification result for jacobdufault.fuzzy-search: Success. Internal Code: 0. Executed: true. Duration: 466ms.
+2025-04-01 02:25:51.365 [info] Extracted extension to file:///home/palash/.vscode/extensions/jacobdufault.fuzzy-search-0.0.3: jacobdufault.fuzzy-search
+2025-04-01 02:25:51.375 [info] Renamed to /home/palash/.vscode/extensions/jacobdufault.fuzzy-search-0.0.3
+2025-04-01 02:25:51.381 [info] Extension installed successfully: jacobdufault.fuzzy-search vscode-userdata:/home/palash/.vscode/extensions/extensions.json
+2025-04-01 02:29:07.740 [info] Uninstalling extension from the profile: jacobdufault.fuzzy-search@0.0.3 vscode-userdata:/home/palash/.vscode/extensions/extensions.json
+2025-04-01 02:29:07.756 [info] Marked extension as removed jacobdufault.fuzzy-search-0.0.3
+2025-04-01 02:29:08.158 [info] Successfully uninstalled extension from the profile jacobdufault.fuzzy-search@0.0.3 vscode-userdata:/home/palash/.vscode/extensions/extensions.json
+2025-04-01 02:29:20.377 [info] Uninstalling extension from the profile: vscodevim.vim@1.29.0 vscode-userdata:/home/palash/.vscode/extensions/extensions.json
+2025-04-01 02:29:20.391 [info] Marked extension as removed vscodevim.vim-1.29.0
+2025-04-01 02:29:20.657 [info] Successfully uninstalled extension from the profile vscodevim.vim@1.29.0 vscode-userdata:/home/palash/.vscode/extensions/extensions.json
+2025-04-01 02:32:20.231 [info] Uninstalling extension from the profile: formulahendry.code-runner@0.12.2 vscode-userdata:/home/palash/.vscode/extensions/extensions.json
+2025-04-01 02:32:20.247 [info] Marked extension as removed formulahendry.code-runner-0.12.2
+2025-04-01 02:32:20.613 [info] Successfully uninstalled extension from the profile formulahendry.code-runner@0.12.2 vscode-userdata:/home/palash/.vscode/extensions/extensions.json

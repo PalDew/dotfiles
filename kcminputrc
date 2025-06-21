@@ -1,0 +1,5 @@
+[Libinput][7119][2208][HID 1bcf:08a0 Mouse]
+LeftHanded=true
+
+[Mouse]
+cursorTheme=Oxygen_Blue

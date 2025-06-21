@@ -1,0 +1,24 @@
+00:00:00.205790 VirtualBox GUI VM Selector Window 7.1.10 r169112 linux.amd64 (Jun  3 2025 19:52:37) release log
+00:00:00.205791 Log opened 2025-06-13T08:20:43.075732000Z
+00:00:00.205791 Build Type: release
+00:00:00.205792 OS Product: Linux
+00:00:00.205792 OS Release: 6.15.2-arch1-1
+00:00:00.205793 OS Version: #1 SMP PREEMPT_DYNAMIC Tue, 10 Jun 2025 21:32:33 +0000
+00:00:00.205803 DMI Product Name: System Product Name
+00:00:00.205806 DMI Product Version: System Version
+00:00:00.205808 Firmware type: UEFI
+00:00:00.205951 Secure Boot: Disabled
+00:00:00.205966 Host RAM: 31898MB (31.1GB) total, 29123MB (28.4GB) available
+00:00:00.205967 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.205967 Process ID: 16917
+00:00:00.205967 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.205978 Qt version: 6.9.1
+00:00:00.206540 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.210870 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.509526 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.556419 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 5x26 x 1221x1352
+00:00:04.545133 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:16.431553 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:36.151243 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:09:11.165943 GUI: UICommon: Handling aboutToQuit request..
+00:09:11.457944 GUI: UICommon: aboutToQuit request handled!

@@ -6,7 +6,7 @@ vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 vim.cmd("set conceallevel=2")
 -- setting both line numbers to be true and displaying it in a staggered way
-vim.opt.relativenumber = true
+vim.opt.relativenumber = false -- I don't use relative line jumps anymore
 vim.opt.number = true
 vim.opt.signcolumn = 'number'
 

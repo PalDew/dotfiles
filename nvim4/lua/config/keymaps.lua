@@ -1,0 +1,8 @@
+vim.keymap.set("n", "<leader>e", "<cmd>Oil --float<CR>", { desc = "Open parent directory in Oil floating" })
+vim.keymap.set("n", "<leader>wq", "<cmd>w<CR>", { desc = "Save buffer" })
+vim.keymap.set("n", "<leader>gl", function()
+	vim.diagnostic.open_float()
+end, { desc = "Open Diagnostics in float." })
+vim.keymap.set("n", "<leader>mp", function()
+	require("conform").format({ lsp_format = "fallback" })
+end, { desc = "Format the file." })

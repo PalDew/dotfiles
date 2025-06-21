@@ -1,0 +1,8 @@
+ls
+make 008 
+./008 
+exit 
+ls
+make 010
+./010
+exit 

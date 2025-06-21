@@ -1,0 +1,40 @@
+2025-05-15T15:00:10.473Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-05-15T15:00:10.476Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-05-15T15:00:10.493Z - info: [ui] [BranchPruner] Last prune took place 20 hours ago - skipping
+2025-05-15T15:00:10.783Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.6-arch1-1)
+2025-05-15T15:00:10.784Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-05-15T15:00:14.480Z - info: [ui] [BranchPruner] Last prune took place 21 hours ago - skipping
+2025-05-15T15:04:38.148Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-05-15T15:04:38.151Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-05-15T15:04:38.170Z - info: [ui] [BranchPruner] Last prune took place 21 hours ago - skipping
+2025-05-15T15:04:38.354Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.6-arch1-1)
+2025-05-15T15:04:38.354Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-05-15T15:04:41.535Z - info: [ui] [BranchPruner] Last prune took place 21 hours ago - skipping
+2025-05-15T15:04:55.197Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.215s)
+2025-05-15T15:04:55.560Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 12.2s of which 0.0s paused, total 12.2s
+2025-05-15T15:04:58.648Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/Experiment1' took 0.060s
+2025-05-15T15:05:02.729Z - info: [ui] [BranchPruner] Last prune took place 21 hours ago - skipping
+2025-05-15T15:05:15.657Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-15T15:05:16.529Z - info: [ui] Executing push: git push origin main:main --progress (took 16.225s)
+2025-05-15T15:05:18.318Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.588s)
+2025-05-15T15:05:19.311Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 1.972s
+2025-05-15T15:05:21.367Z - info: [ui] [BranchPruner] Last prune took place 21 hours ago - skipping
+2025-05-15T15:05:23.309Z - info: [ui] [BranchPruner] Last prune took place 21 hours ago - skipping
+2025-05-15T15:05:26.112Z - info: [ui] [BranchPruner] Last prune took place 21 hours ago - skipping
+2025-05-15T15:05:29.070Z - info: [ui] [BranchPruner] Last prune took place 21 hours ago - skipping
+2025-05-15T15:05:31.169Z - info: [ui] [BranchPruner] Last prune took place 21 hours ago - skipping
+2025-05-15T15:05:32.149Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.614s)
+2025-05-15T15:05:33.910Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.591s)
+2025-05-15T15:05:36.689Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-15T15:05:37.305Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.935s)
+2025-05-15T15:05:44.375Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-15T15:05:44.977Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.909s)
+2025-05-15T15:05:47.783Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.631s)
+2025-05-15T15:05:52.631Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-15T15:05:53.236Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.927s)
+2025-05-15T15:05:55.548Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-15T15:05:59.090Z - info: [ui] Executing push: git push origin main:main --progress (took 18.873s)
+2025-05-15T15:06:00.315Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-15T15:06:00.896Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.916s)
+2025-05-15T15:06:14.702Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.591s)
+2025-05-15T15:06:30.265Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.544s)

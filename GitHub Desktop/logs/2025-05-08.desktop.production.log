@@ -1,0 +1,347 @@
+2025-05-08T14:05:36.518Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-05-08T14:05:36.522Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-05-08T14:05:36.819Z - warn: [ui] Error refreshing account 'PalDew'
+Error: Cannot update an account which doesn't have a token: PalDew
+    at at (/home/palash/webpack:/app/src/lib/fatal-error.ts:3:9)
+    at /home/palash/webpack:/app/src/lib/stores/accounts-store.ts:248:12
+    at Op.tryUpdateAccount (/home/palash/webpack:/app/src/lib/stores/accounts-store.ts:136:20)
+    at /home/palash/webpack:/app/src/lib/stores/accounts-store.ts:116:37
+    at Array.map (<anonymous>)
+    at Op.refresh (/home/palash/webpack:/app/src/lib/stores/accounts-store.ts:116:21)
+    at Op.loadInitialState (/home/palash/webpack:/app/src/lib/stores/app-store.ts:2309:24)
+2025-05-08T14:05:36.977Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.5-arch1-1)
+2025-05-08T14:05:36.978Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-05-08T14:05:37.910Z - info: [ui] Stats reported.
+2025-05-08T14:05:46.710Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.326s)
+2025-05-08T14:05:46.711Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.346s)
+2025-05-08T14:05:48.355Z - info: [ui] Executing getChangesFiles: git log 3348cfbe663bbaafe53e21f5781a519b0aff3271 -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 1.504s)
+2025-05-08T14:05:50.622Z - info: [ui] Executing unstageAll: git reset -- . (took 1.425s)
+2025-05-08T14:05:50.864Z - error: [ui] `git commit -F -` exited with an unexpected code: 128.
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'palash@downstairs.(none)')
+
+2025-05-08T14:05:50.864Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 1.694s
+2025-05-08T14:05:52.089Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-05-08T14:05:52.170Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-05-08T14:05:52.207Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-05-08T14:05:52.244Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-05-08T14:05:58.166Z - warn: [ui] fetchRepository: 'PalDew/Obsidian-new' returned a 404
+2025-05-08T14:05:58.207Z - warn: [ui] fetchRepository: 'PalDew/Obsidian-new' returned a 404
+2025-05-08T14:06:02.214Z - error: [ui] `git commit -F -` exited with an unexpected code: 128.
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'palash@downstairs.(none)')
+
+2025-05-08T14:06:02.215Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 0.149s
+2025-05-08T14:06:13.563Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:06:13.848Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.633s)
+2025-05-08T14:06:13.850Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/PalDew/Obsidian-new.git/'
+
+(The error was parsed as 4: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2025-05-08T14:07:22.996Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/dotfiles' took 0.219s
+2025-05-08T14:07:24.921Z - warn: [ui] fetchRepository: 'PalDew/scratch' returned a 404
+2025-05-08T14:07:24.959Z - warn: [ui] fetchRepository: 'PalDew/scratch' returned a 404
+2025-05-08T14:07:29.537Z - warn: [ui] fetchRepository: 'PalDew/scratch' returned a 404
+2025-05-08T14:07:29.772Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at Nt (/home/palash/webpack:/app/src/lib/http.ts:178:11)
+    at Yn.fetchProtectedBranches (/home/palash/webpack:/app/src/lib/api.ts:1628:7)
+    at Op.updateBranchProtectionsFromAPI (/home/palash/webpack:/app/src/lib/stores/app-store.ts:4268:11)
+2025-05-08T14:07:29.792Z - warn: [ui] fetchAll: 'repos/PalDew/scratch/pulls?state=open' returned a 404
+2025-05-08T14:07:29.794Z - warn: [ui] fetchAll: 'repos/PalDew/scratch/issues?state=open' returned a 404
+2025-05-08T14:07:29.805Z - warn: [ui] fetchMentionables: 'repos/PalDew/scratch/mentionables/users' returned a 404
+2025-05-08T14:07:35.040Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/scratch' took 0.055s
+2025-05-08T14:07:38.829Z - warn: [ui] fetchRepository: 'PalDew/Obsidian-new' returned a 404
+2025-05-08T14:07:38.859Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at Nt (/home/palash/webpack:/app/src/lib/http.ts:178:11)
+    at Yn.fetchProtectedBranches (/home/palash/webpack:/app/src/lib/api.ts:1628:7)
+    at Op.updateBranchProtectionsFromAPI (/home/palash/webpack:/app/src/lib/stores/app-store.ts:4268:11)
+2025-05-08T14:07:38.866Z - warn: [ui] fetchMentionables: 'repos/PalDew/Obsidian-new/mentionables/users' returned a 404
+2025-05-08T14:07:38.873Z - warn: [ui] fetchAll: 'repos/PalDew/Obsidian-new/issues?state=open' returned a 404
+2025-05-08T14:07:38.874Z - warn: [ui] fetchAll: 'repos/PalDew/Obsidian-new/pulls?state=open' returned a 404
+2025-05-08T14:07:40.327Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:07:40.590Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.621s)
+2025-05-08T14:07:40.591Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/PalDew/scratch.git/'
+
+(The error was parsed as 4: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2025-05-08T14:07:40.953Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 37.5s of which 65.7s paused, total 103.2s
+2025-05-08T14:07:41.858Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:07:42.111Z - info: [ui] Executing push: git push origin main:main --progress (took 15.580s)
+2025-05-08T14:07:42.112Z - error: [ui] `git push origin main:main --progress` exited with an unexpected code: 128.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/PalDew/dotfiles.git/'
+
+(The error was parsed as 4: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2025-05-08T14:07:54.005Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:07:54.269Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.648s)
+2025-05-08T14:07:54.270Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/PalDew/Obsidian-new.git/'
+
+(The error was parsed as 4: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2025-05-08T14:07:54.565Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+Error: Not Found
+    at Nt (/home/palash/webpack:/app/src/lib/http.ts:178:11)
+    at Yn.fetchPushControl (/home/palash/webpack:/app/src/lib/api.ts:1602:7)
+    at Op.refreshBranchProtectionState (/home/palash/webpack:/app/src/lib/stores/app-store.ts:1244:39)
+    at /home/palash/webpack:/app/src/lib/stores/app-store.ts:5216:32
+    at Op.withPushPullFetch (/home/palash/webpack:/app/src/lib/stores/app-store.ts:4707:5)
+    at Op.performFetch (/home/palash/webpack:/app/src/lib/stores/app-store.ts:5173:5)
+    at Cw.performAndScheduleFetch (/home/palash/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-05-08T14:07:55.480Z - info: [ui] [BranchPruner] Last prune took place 26 seconds ago - skipping
+2025-05-08T14:07:55.680Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at Nt (/home/palash/webpack:/app/src/lib/http.ts:178:11)
+    at Yn.fetchProtectedBranches (/home/palash/webpack:/app/src/lib/api.ts:1628:7)
+    at Op.updateBranchProtectionsFromAPI (/home/palash/webpack:/app/src/lib/stores/app-store.ts:4268:11)
+2025-05-08T14:07:55.705Z - warn: [ui] fetchRepository: 'PalDew/scratch' returned a 404
+2025-05-08T14:07:55.747Z - warn: [ui] fetchAll: 'repos/PalDew/scratch/issues?state=open' returned a 404
+2025-05-08T14:08:10.866Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:08:11.146Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.665s)
+2025-05-08T14:08:11.148Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/PalDew/scratch.git/'
+
+(The error was parsed as 4: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2025-05-08T14:08:11.467Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+Error: Not Found
+    at Nt (/home/palash/webpack:/app/src/lib/http.ts:178:11)
+    at Yn.fetchPushControl (/home/palash/webpack:/app/src/lib/api.ts:1602:7)
+    at Op.refreshBranchProtectionState (/home/palash/webpack:/app/src/lib/stores/app-store.ts:1244:39)
+    at /home/palash/webpack:/app/src/lib/stores/app-store.ts:5216:32
+    at Op.withPushPullFetch (/home/palash/webpack:/app/src/lib/stores/app-store.ts:4707:5)
+    at Op.performFetch (/home/palash/webpack:/app/src/lib/stores/app-store.ts:5173:5)
+    at Cw.performAndScheduleFetch (/home/palash/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-05-08T14:08:38.765Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2025-05-08T14:08:38.925Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at Nt (/home/palash/webpack:/app/src/lib/http.ts:178:11)
+    at Yn.fetchProtectedBranches (/home/palash/webpack:/app/src/lib/api.ts:1628:7)
+    at Op.updateBranchProtectionsFromAPI (/home/palash/webpack:/app/src/lib/stores/app-store.ts:4268:11)
+2025-05-08T14:08:38.927Z - warn: [ui] fetchRepository: 'PalDew/Obsidian-new' returned a 404
+2025-05-08T14:08:39.019Z - warn: [ui] fetchAll: 'repos/PalDew/Obsidian-new/issues?state=open' returned a 404
+2025-05-08T14:08:43.407Z - info: [ui] [Timing] Action 'create commit' for 'PalDew/Obsidian-new' took 0.134s
+2025-05-08T14:08:46.171Z - info: [ui] [BranchPruner] Last prune took place 3 minutes ago - skipping
+2025-05-08T14:08:47.476Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:08:47.764Z - info: [ui] Executing push: git push origin master:master --progress (took 15.692s)
+2025-05-08T14:08:47.765Z - error: [ui] `git push origin master:master --progress` exited with an unexpected code: 128.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/PalDew/scratch.git/'
+
+(The error was parsed as 4: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2025-05-08T14:08:54.112Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:08:54.377Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.607s)
+2025-05-08T14:08:54.377Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/PalDew/Obsidian-new.git/'
+
+(The error was parsed as 4: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2025-05-08T14:08:54.658Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+Error: Not Found
+    at Nt (/home/palash/webpack:/app/src/lib/http.ts:178:11)
+    at Yn.fetchPushControl (/home/palash/webpack:/app/src/lib/api.ts:1602:7)
+    at Op.refreshBranchProtectionState (/home/palash/webpack:/app/src/lib/stores/app-store.ts:1244:39)
+    at /home/palash/webpack:/app/src/lib/stores/app-store.ts:5216:32
+    at Op.withPushPullFetch (/home/palash/webpack:/app/src/lib/stores/app-store.ts:4707:5)
+    at Op.performFetch (/home/palash/webpack:/app/src/lib/stores/app-store.ts:5173:5)
+    at Cw.performAndScheduleFetch (/home/palash/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-05-08T14:09:01.870Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.698s)
+2025-05-08T14:09:17.568Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.679s)
+2025-05-08T14:10:59.387Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:10:59.702Z - info: [ui] Executing push: git push origin main:main --progress (took 15.705s)
+2025-05-08T14:10:59.703Z - error: [ui] `git push origin main:main --progress` exited with an unexpected code: 128.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/PalDew/dotfiles.git/'
+
+(The error was parsed as 4: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2025-05-08T14:13:10.916Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-05-08T14:13:10.919Z - info: [ui] [AppStore] found account: PalDew (PalDew)
+2025-05-08T14:13:10.937Z - info: [ui] [BranchPruner] Last prune took place 7 minutes ago - skipping
+2025-05-08T14:13:11.243Z - warn: [ui] Error refreshing account 'PalDew'
+Error: Cannot update an account which doesn't have a token: PalDew
+    at at (/home/palash/webpack:/app/src/lib/fatal-error.ts:3:9)
+    at /home/palash/webpack:/app/src/lib/stores/accounts-store.ts:248:12
+    at Op.tryUpdateAccount (/home/palash/webpack:/app/src/lib/stores/accounts-store.ts:136:20)
+    at /home/palash/webpack:/app/src/lib/stores/accounts-store.ts:116:37
+    at Array.map (<anonymous>)
+    at Op.refresh (/home/palash/webpack:/app/src/lib/stores/accounts-store.ts:116:21)
+    at Op.loadInitialState (/home/palash/webpack:/app/src/lib/stores/app-store.ts:2309:24)
+2025-05-08T14:13:11.396Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.14.5-arch1-1)
+2025-05-08T14:13:11.397Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-05-08T14:13:26.341Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+Error: API rate limit exceeded for 103.137.174.35. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Nt (/home/palash/webpack:/app/src/lib/http.ts:178:11)
+    at Yn.fetchPushControl (/home/palash/webpack:/app/src/lib/api.ts:1602:7)
+    at Op.refreshBranchProtectionState (/home/palash/webpack:/app/src/lib/stores/app-store.ts:1244:39)
+    at Op.repositoryWithRefreshedGitHubRepository (/home/palash/webpack:/app/src/lib/stores/app-store.ts:4247:5)
+2025-05-08T14:13:26.378Z - info: [ui] [fetchAllRepoRulesets] unable to fetch all repo rulesets | repos/PalDew/dotfiles/rulesets
+Error: API rate limit exceeded for 103.137.174.35. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Nt (/home/palash/webpack:/app/src/lib/http.ts:178:11)
+    at Yn.fetchAllRepoRulesets (/home/palash/webpack:/app/src/lib/api.ts:1672:7)
+    at Op.refreshBranchProtectionState (/home/palash/webpack:/app/src/lib/stores/app-store.ts:1248:15)
+    at Op.repositoryWithRefreshedGitHubRepository (/home/palash/webpack:/app/src/lib/stores/app-store.ts:4247:5)
+2025-05-08T14:13:26.416Z - info: [ui] [fetchRepoRulesForBranch] unable to fetch repo rules for branch: main | repos/PalDew/dotfiles/rules/branches/main
+Error: API rate limit exceeded for 103.137.174.35. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+    at Nt (/home/palash/webpack:/app/src/lib/http.ts:178:11)
+    at Yn.fetchRepoRulesForBranch (/home/palash/webpack:/app/src/lib/api.ts:1651:7)
+    at Op.refreshBranchProtectionState (/home/palash/webpack:/app/src/lib/stores/app-store.ts:1269:15)
+    at Op.repositoryWithRefreshedGitHubRepository (/home/palash/webpack:/app/src/lib/stores/app-store.ts:4247:5)
+2025-05-08T14:13:29.712Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:13:29.971Z - info: [ui] Executing push: git push origin main:main --progress (took 15.658s)
+2025-05-08T14:13:29.977Z - error: [ui] `git push origin main:main --progress` exited with an unexpected code: 128.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/PalDew/dotfiles.git/'
+
+(The error was parsed as 4: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2025-05-08T14:13:59.083Z - info: [ui] [AppStore] removing account PalDew (PalDew) from store
+2025-05-08T14:14:01.868Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-05-08T14:14:01.870Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=461628a7-d979-45dd-9d60-f203d30f1c2b
+2025-05-08T14:14:39.525Z - info: [main] Received possible protocol arguments: 3
+2025-05-08T14:14:39.525Z - info: [main] Processing protocol url
+2025-05-08T14:14:39.613Z - info: [main] Received possible protocol arguments: 2
+2025-05-08T14:14:39.617Z - info: [main] Processing protocol url
+2025-05-08T14:14:46.254Z - info: [main] Received possible protocol arguments: 3
+2025-05-08T14:14:46.254Z - info: [main] Processing protocol url
+2025-05-08T14:14:46.341Z - info: [main] Received possible protocol arguments: 2
+2025-05-08T14:14:46.344Z - info: [main] Processing protocol url
+2025-05-08T14:14:46.553Z - info: [ui] [SignInStore] error with OAuth flow
+Error: Failed retrieving authenticated user
+    at Op.resolveOAuthRequest (/home/palash/webpack:/app/src/lib/stores/sign-in-store.ts:359:9)
+    at Object.dispatchURLAction (/home/palash/webpack:/app/src/ui/dispatcher/dispatcher.ts:1861:12)
+2025-05-08T14:14:51.429Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-05-08T14:14:51.435Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=c994faa9-7969-4fbd-a9a1-0a8e01b88924
+2025-05-08T14:15:03.031Z - info: [main] Received possible protocol arguments: 3
+2025-05-08T14:15:03.031Z - info: [main] Processing protocol url
+2025-05-08T14:15:03.130Z - info: [main] Received possible protocol arguments: 2
+2025-05-08T14:15:03.133Z - info: [main] Processing protocol url
+2025-05-08T14:15:04.233Z - info: [ui] [SignInStore] account resolved
+2025-05-08T14:15:04.253Z - info: [ui] [AppStore] adding account PalDew (PalDew) to store
+2025-05-08T14:15:28.846Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:15:31.673Z - info: [ui] Executing push: git push origin main:main --progress (took 18.202s)
+2025-05-08T14:15:35.498Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:15:36.108Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.954s)
+2025-05-08T14:15:46.658Z - info: [ui] [BranchPruner] Last prune took place 8 minutes ago - skipping
+2025-05-08T14:15:47.340Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.657s)
+2025-05-08T14:15:51.540Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:15:52.197Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 16.085s)
+2025-05-08T14:16:02.995Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.650s)
+2025-05-08T14:16:08.054Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:16:08.645Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.964s)
+2025-05-08T14:16:12.046Z - info: [ui] [BranchPruner] Last prune took place 9 minutes ago - skipping
+2025-05-08T14:16:13.266Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:16:14.148Z - info: [ui] Executing push: git push origin master:master --progress (took 16.277s)
+2025-05-08T14:16:14.709Z - info: [ui] [BranchPruner] Last prune took place 11 minutes ago - skipping
+2025-05-08T14:16:17.053Z - info: [ui] [BranchPruner] Last prune took place 11 minutes ago - skipping
+2025-05-08T14:16:20.127Z - info: [ui] [BranchPruner] Last prune took place 9 minutes ago - skipping
+2025-05-08T14:16:24.033Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:16:24.607Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.959s)
+2025-05-08T14:16:24.658Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 65.3s of which 0.1s paused, total 65.4s
+2025-05-08T14:16:29.544Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:16:30.184Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 16.031s)
+2025-05-08T14:16:30.338Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 15.633s)
+2025-05-08T14:16:45.601Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:16:45.984Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 15.643s)
+2025-05-08T14:16:46.236Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 16.049s)
+2025-05-08T14:16:49.182Z - info: [ui] [BranchPruner] Last prune took place 9 minutes ago - skipping
+2025-05-08T14:17:06.102Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:17:06.908Z - info: [ui] Executing push: git push origin master:master --progress (took 16.153s)
+2025-05-08T14:17:22.315Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-05-08T14:17:22.919Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 16.007s)

@@ -1,2 +1,3 @@
-2025/05/04-19:59:49.486 bc6 Creating DB /home/palash/.config/via-nativia/IndexedDB/https_usevia.app_0.indexeddb.leveldb since it was missing.
-2025/05/04-19:59:49.489 bc6 Reusing MANIFEST /home/palash/.config/via-nativia/IndexedDB/https_usevia.app_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/13-23:34:13.011 bc8f Reusing MANIFEST /home/palash/.config/via-nativia/IndexedDB/https_usevia.app_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/13-23:34:13.011 bc8f Recovering log #3
+2025/06/13-23:34:13.011 bc8f Reusing old log /home/palash/.config/via-nativia/IndexedDB/https_usevia.app_0.indexeddb.leveldb/000003.log 

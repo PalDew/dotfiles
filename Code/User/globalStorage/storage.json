@@ -1,0 +1,79 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "63c00fe335fd4da71f80a8ab4c9c306adac8442b9cde7decdc638fc6a9b59f11",
+    "telemetry.devDeviceId": "2516260c-d1fc-46af-b001-e13408d6b1aa",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/palash/Documents/Obsidian-new"
+            },
+            {
+                "folderUri": "file:///home/palash/Documents/Experiment1"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1743454388359"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/palash/Documents/Obsidian-new": "__default__profile__",
+            "file:///home/palash/Documents/Experiment1": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1743454388359": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#272822",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#272822",
+            "editorBackground": "#272822",
+            "titleBarBackground": "#1e1f1c",
+            "activityBarBackground": "#272822",
+            "sideBarBackground": "#1e1f1c",
+            "statusBarBackground": "#414339",
+            "statusBarNoFolderBackground": "#414339"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 211,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/palash/Documents/Experiment1",
+            "backupPath": "/home/palash/.config/Code/Backups/ad4cd0b7905dfe21a237519a7dd7b6c0",
+            "uiState": {
+                "mode": 1,
+                "x": 856,
+                "y": 6,
+                "width": 849,
+                "height": 1397
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "auxiliarySideBarWidth": [
+                300,
+                []
+            ]
+        }
+    }
+}

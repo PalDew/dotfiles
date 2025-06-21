@@ -1,0 +1,6 @@
+2025-04-01 02:23:14.835 [info] Log level: Info
+2025-04-01 02:26:17.299 [info] Log level: Info
+2025-04-01 02:26:23.630 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-04-01 02:26:34.350 [info] Log level: Info
+2025-04-01 02:26:34.453 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-04-01 02:27:52.373 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for PalDew/Experiment1: Error: No GitHub authentication session available.
